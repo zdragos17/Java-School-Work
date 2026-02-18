@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest
+testParseInput  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest.testParseInput(Ex5StringAnalyzerTest.java:12)
+
+testFindMostConsonants  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest.testFindMostConsonants(Ex5StringAnalyzerTest.java:54)
+
+testFindMostVowels  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest.testFindMostVowels(Ex5StringAnalyzerTest.java:47)
+
+testFindLongest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest.testFindLongest(Ex5StringAnalyzerTest.java:19)
+
+testFindShortest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest.testFindShortest(Ex5StringAnalyzerTest.java:26)
+
+testCountVowels  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array lengths differ, expected: <3> but was: <0>
+	at utcluj.aut.lab2.exercises.Ex5StringAnalyzerTest.testCountVowels(Ex5StringAnalyzerTest.java:33)
+

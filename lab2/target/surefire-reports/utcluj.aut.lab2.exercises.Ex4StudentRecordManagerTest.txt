@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest
+testParseStudentRecordInvalidFormat  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest.testParseStudentRecordInvalidFormat(Ex4StudentRecordManagerTest.java:18)
+
+testParseStudentRecord  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest.testParseStudentRecord(Ex4StudentRecordManagerTest.java:12)
+
+testSortRecordsByGradeDescending  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest.testSortRecordsByGradeDescending(Ex4StudentRecordManagerTest.java:64)
+
+testFilterByGrade  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest.testFilterByGrade(Ex4StudentRecordManagerTest.java:34)
+
+testSortRecordsByNameAscending  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest.testSortRecordsByNameAscending(Ex4StudentRecordManagerTest.java:49)
+
+testIsInteger  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at utcluj.aut.lab2.exercises.Ex4StudentRecordManagerTest.testIsInteger(Ex4StudentRecordManagerTest.java:69)
+

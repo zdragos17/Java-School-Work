@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: utcluj.aut.lab2.exercises.Ex3FactorialCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in utcluj.aut.lab2.exercises.Ex3FactorialCalculatorTest
+testPerformanceComparison  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Both methods should give the same result for 15! ==> expected: <1307674368000> but was: <1278945280>
+	at utcluj.aut.lab2.exercises.Ex3FactorialCalculatorTest.testPerformanceComparison(Ex3FactorialCalculatorTest.java:55)
+
+testNegativeInput  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should throw exception for negative input in recursive method ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at utcluj.aut.lab2.exercises.Ex3FactorialCalculatorTest.testNegativeInput(Ex3FactorialCalculatorTest.java:42)
+
+testNonRecursiveFactorial  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 2! should be 2 ==> expected: <2> but was: <1>
+	at utcluj.aut.lab2.exercises.Ex3FactorialCalculatorTest.testNonRecursiveFactorial(Ex3FactorialCalculatorTest.java:32)
+
